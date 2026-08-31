@@ -20,12 +20,12 @@ SELECT last_name, first_name FROM teachers ORDER BY last_name ASC;
 
 
 --order by multiple categories
---SELECT last_name, school, hire_date FROM teachers ORDER BY school ASC, hire_date DESC;
+SELECT last_name, school, hire_date FROM teachers ORDER BY school ASC, hire_date DESC;
 
 
 --Can find unique values by using DISTINCT after SELECT
 --removes repeated values, makes data retrival look neater
---SELECT DISTINCT school FROM teachers;
+SELECT DISTINCT school FROM teachers;
 
 
 --WHERE allows us to retrieve only rows that meet a certain condition
