@@ -1,0 +1,11 @@
+--Part 1
+CREATE DATABASE week5;
+
+--Part 2
+CREATE TABLE products(
+	id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+	product_name varchar(100),
+	quantity integer
+);
+
+--Part 3
