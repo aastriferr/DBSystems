@@ -17,7 +17,7 @@ CREATE TABLE product(index_id integer PRIMARY KEY,
 SELECT * FROM product;
 
 
---PART 2
+--PART B
 --Multiply price and stock for inventory value per product
 SELECT product_name, price, stock, price*stock as inventory_value FROM product LIMIT 10;
 --average price of all products
